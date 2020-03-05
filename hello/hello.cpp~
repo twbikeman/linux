@@ -1,0 +1,13 @@
+#include <iostream>
+#include <fstream>
+
+int main() {
+
+  ofstream ofs("output.txt", ios::out);
+  ofs << "TEST\n";
+  ofs << "TEST\n";
+  ofs.close();
+  
+  
+  return 0;
+}
